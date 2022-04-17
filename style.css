@@ -1,1 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+
+body {
+    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+    background: #eee
+    font-weight: 200;
+}
+
+*/.borders {
+    background-color:#eee;
+}
+
+.newspaper-container {
+    background-color: white;
+    box-shadow: #ddd
+    width: 700px;
+    border-style: round;   
+}
+
+header h1 {
+    font-family: 'Abril Fatface', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    text-align: center
+    font-size: 2.5 em;
+}
+
+main h2 {
+    font-family: 'Roboto Slab', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 0;
+}
+
+.no-bullet {
+    list-style: none;
+}
+
+.date {
+    text-align: center;
+}
+
+h5 {
+    color: red;
+}
+
+ul, li {
+    display: inline-block;
+    padding-right: 0.75 em;
+    padding-left: 0.75em;
+}
