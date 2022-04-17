@@ -8,20 +8,22 @@ body {
 }
 
 */.borders {
-    background-color:#eee;
+    background:#eee;
 }
 
 .newspaper-container {
-    background-color: white;
-    box-shadow: #ddd
+    background: white;
+    box-shadow: 1px 1px 5px #ddd;
     width: 700px;
-    border-style: round;   
+    border-radius: 10px;
+    margin: 3em auto;
+    padding: 1em;
+    box-sizing: border-box;
 }
 
 header h1 {
     font-family: 'Abril Fatface', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
-    text-align: center
     font-size: 2.5 em;
 }
 
@@ -34,16 +36,16 @@ main h2 {
     list-style: none;
 }
 
-.date {
-    text-align: center;
-}
-
 h5 {
     color: red;
 }
 
 ul, li {
     display: inline-block;
-    padding-right: 0.75 em;
-    padding-left: 0.75em;
+    padding-right: 0.25em;
+    padding-left: 0.25em;
+}
+
+h1 {
+    text-align: center;
 }
